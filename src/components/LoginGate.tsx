@@ -18,7 +18,7 @@ interface RoleConfig {
 
 const roleConfigs: Record<RoleKey, RoleConfig> = {
   patient:  { label: 'Patient / Family',  icon: User,        accent: '#10b981', username: 'patient',  password: 'heart123' },
-  operator: { label: 'Operator (999)',     icon: Radio,       accent: '#3b82f6', username: 'operator', password: 'heart999' },
+  operator: { label: 'AI Dispatch',        icon: Radio,       accent: '#3b82f6', username: 'operator', password: 'heart999' },
   doctor:   { label: 'Doctor',            icon: Stethoscope, accent: '#ec4899', username: 'doctor',   password: 'heartdoc' },
   field:    { label: 'Field Unit',        icon: Truck,       accent: '#f59e0b', username: 'field',    password: 'heartfield' },
   admin:    { label: 'Hospital Admin',    icon: Hospital,    accent: '#8b5cf6', username: 'admin',    password: 'heartadmin' },

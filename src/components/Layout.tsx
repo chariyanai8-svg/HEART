@@ -6,7 +6,7 @@ import { signOutAll } from './LoginGate';
 
 const roleMap: Record<string, { label: string; icon: typeof User; accent: string }> = {
   '/user':     { label: 'Patient / Family', icon: User, accent: '#10b981' },
-  '/operator': { label: 'Operator (999)',   icon: Radio, accent: '#3b82f6' },
+  '/operator': { label: 'AI Dispatch',      icon: Radio, accent: '#3b82f6' },
   '/doctor':   { label: 'Doctor',           icon: Stethoscope, accent: '#ec4899' },
   '/field':    { label: 'Field Unit',       icon: Truck, accent: '#f59e0b' },
   '/hospital': { label: 'Hospital Admin',   icon: Hospital, accent: '#8b5cf6' },

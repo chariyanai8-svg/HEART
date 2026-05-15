@@ -15,10 +15,10 @@ const roles = [
     features: ['Health Dashboard', 'AI Triage', 'WhatsApp Alerts'],
   },
   {
-    key: 'operator', path: '/operator', label: 'Operator (999)', icon: Radio,
+    key: 'operator', path: '/operator', label: 'AI Dispatch', icon: Radio,
     accent: '#3b82f6', gradient: 'linear-gradient(135deg, #3b82f6, #2563eb)',
-    desc: '999 dispatch, emergency triage, and AI hospital allocation.',
-    features: ['999 Call Log', 'AI Dispatch', 'Hospital Allocation'],
+    desc: 'Fully automated AI triage, hospital allocation, and dispatch.',
+    features: ['Auto-Triage', 'AI Dispatch', 'Auto-Allocate'],
   },
   {
     key: 'doctor', path: '/doctor', label: 'Doctor', icon: Stethoscope,
